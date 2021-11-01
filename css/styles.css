@@ -602,7 +602,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .img-thumbnail {
@@ -4609,7 +4609,8 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 12rem;
+  height: 12rem;
 }
 
 .card-img,
@@ -7359,7 +7360,7 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
-  margin-bottom: 0 !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-1 {
@@ -11362,8 +11363,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 14rem;
+    max-height: 14rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -11432,4 +11433,24 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.typescript {
+  width: 2.7rem;
+  height: 2.7rem;
+  background-color: #6C757D;
+  border-radius: calc(2.5rem - 2.2rem);
+  top: -0.2rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.white {
+  color: white;
+  font-weight: 600;
+  margin-right: 0.3rem;
+  margin-bottom: 0px;
+  font-size: 1.8rem;
 }
